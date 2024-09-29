@@ -1,0 +1,60 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: antiquewhite;
+}
+.container{
+    background-color: black;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.container .title h3{
+    color: white;
+    text-indent: 50px;
+    font-size: 25px;
+}
+.container .menus a{
+    text-decoration: none;
+    color: white;
+}
+.container .menus{
+    width: 50%;
+    display: flex;
+    justify-content: space-around;
+}
+.menus a:hover{
+    color: blue;
+}
+.home-container{
+    text-align: center;
+}
+.gallery-container h2{
+    text-align: center;
+}
+.gallery-grid{
+    display: grid;
+    grid-template-columns: repeat(2,auto);
+    row-gap: 50px;
+
+}
+.gallery-grid .event{
+    padding-left: 80px;
+}
+.register-container h2{
+    text-align: center;
+}
+.form-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.contact-container h2{
+    text-align: center;
+}
+.contact-container address, p{
+    text-align: center;
+}
+.about-container h2{
+    text-align: center;
+}
